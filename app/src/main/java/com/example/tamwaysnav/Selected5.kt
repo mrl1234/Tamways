@@ -82,7 +82,7 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
 
         when(userModel.username){
             "ABB Canteen"->
-                startActivity(Intent(this@Selected5, Selected2to2::class.java))
+                startActivity(Intent(this@Selected5, Selected5tob1e::class.java))
             "NB Canteen"->
                 startActivity(Intent(this@Selected5, Selected5to1a::class.java))
             "NB Gate"->
@@ -110,7 +110,17 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
             "NB 7th Floor (Room 701 - 709)"->
                 startActivity(Intent(this@Selected5, Selected5to7a::class.java))
             "ABB 1st Floor"->
-                startActivity(Intent(this@Selected5, Selected2to1::class.java))
+                startActivity(Intent(this@Selected5, Selected5to1a::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@Selected5, Selected5tob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@Selected5, Selected5tob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@Selected5, Selected5tob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@Selected5, Selected5tob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@Selected5, Selected5tob6a::class.java))
 
             else -> {
                 Toast.makeText(this,"Wala pa", Toast.LENGTH_LONG).show()

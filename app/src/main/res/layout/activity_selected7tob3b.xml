@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Selected7tob3b">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="   NB 5th Floor to ABB 3rd Floor"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textColorHighlight="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:src="@drawable/shortcutd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Next"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

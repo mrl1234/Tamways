@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Selected6tob1j">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="   NB 4th Floor to ABB Canteen"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textColorHighlight="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:src="@drawable/nbgatetoct2" />
+
+</LinearLayout>
